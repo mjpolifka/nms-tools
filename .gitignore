@@ -1,0 +1,29 @@
+
+
+
+# Adopted from create-react-app:
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/nms_frontend/node_modules
+/nms_frontend/.pnp
+/nms_frontend/.pnp.js
+
+# testing
+/nms_frontend/coverage
+
+# production
+/nms_frontend/build
+
+# misc
+/nms_frontend/.DS_Store
+/nms_frontend/.env.local
+/nms_frontend/.env.development.local
+/nms_frontend/.env.test.local
+/nms_frontend/.env.production.local
+
+/nms_frontend/npm-debug.log*
+/nms_frontend/yarn-debug.log*
+/nms_frontend/yarn-error.log*
