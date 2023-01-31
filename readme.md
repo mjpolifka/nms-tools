@@ -1,7 +1,5 @@
 # No Man's Sky Tools
 
-### Currently it's an empty React App and Flask server returning "hello world"
-
 ### Under Construction:
 - Solar power calculator
 
