@@ -1,4 +1,38 @@
 .App {
+    text-align: center;
+}
+
+.solar {
+    background-color: #61dafb;
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    /* float: right; */
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    width: 100%;
+    background-color: bisque;
+    margin: 10px;
+    /* float: right; */
+}
+
+/* Original CSS: */
+/*
+.App {
   text-align: center;
 }
 
@@ -36,8 +70,5 @@
     transform: rotate(360deg);
   }
 }
+*/
 
-
-.solar {
-    background-color: #61dafb;
-}

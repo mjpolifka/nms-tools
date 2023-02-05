@@ -1,7 +1,10 @@
 # No Man's Sky Tools
 
 ### Under Construction:
-- Solar power calculator
+#### Solar power calculator
+- Input daylight and night hours, including seconds of 50% power
+- How many solar panels do you need for 2x output?
+- How many batteries do you need to last the night?
 
 ### Feature brainstorming
 
@@ -12,10 +15,10 @@
     - Allow for missing components so you can decide if it's worth farming them
 - List of upgrades you can buy and their location
     - Be able to build a shopping list to prioritize/plan and remember
-- Solar power calculator
-    - How many solar panels do you need for 2x output
-    - How many batteries do you need to last the night
-    - Input daylight and night hours, including seconds of 50% power
+~~- Solar power calculator~~ Implementing
+    ~~- How many solar panels do you need for 2x output~~
+    ~~- How many batteries do you need to last the night~~
+    ~~- Input daylight and night hours, including seconds of 50% power~~
 
 ### Architecture
 
