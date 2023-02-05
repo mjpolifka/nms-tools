@@ -20,7 +20,6 @@ def cascade_ingredients(item):
     ingredients = {}
 
     try:
-    #if item in data.keys(): # This should be a try/catch block for readability
         # read its ingredients
         ings = data[item]['ingredients']
         for i in ings.keys():
@@ -28,20 +27,13 @@ def cascade_ingredients(item):
             if i not in data.keys():
                 ingredients = save_ingredient(i, ings, ingredients)
             else:
-                # If it does, call the function again and save the return value
+                # If it does, call the function again and save the return value(s)
                 c = cascade_ingredients(i)
                 for j in c:
                     ingredients = save_ingredient(j, c, ingredients)
     except KeyError as e:
         print("Key error: " + e)
         return 0
-    '''
-    else:
-        # This should probably be a try/catch
-        print("item '" + item + "' not found, stopping")
-        # I don't think this should ever happen, but it'll probably throw an error if it does
-        return 0
-    '''
 
     return ingredients
 
