@@ -1,0 +1,65 @@
+{
+    "poly_fibre": {
+        "ingredients": {
+            "cactus_flesh": 100,
+            "star_bulb": 200
+        },
+        "value": 0
+    },
+    "heat_capacitor": {
+        "ingredients": {
+            "frost_crystal": 100,
+            "solanium": 200
+        },
+        "value": 0
+    },
+    "circuit_board": {
+        "ingredients": {
+            "heat_capacitor": 1,
+            "poly_fibre": 1
+        },
+        "value": 0
+    },
+    "thermic_condensate": {
+        "ingredients": {
+            "sulphurine": 250,
+            "condensed_carbon": 50
+        },
+        "value": 0
+    },
+    "nitrogen_salt": {
+        "ingredients": {
+            "nitrogen": 250,
+            "condensed_carbon": 50
+        },
+        "value": 0
+    },
+    "enriched_carbon": {
+        "ingredients": {
+            "radon": 250,
+            "condensed_carbon": 50
+        },
+        "value": 0
+    },
+    "semiconductor": {
+        "ingredients": {
+            "thermic_condensate": 1,
+            "nitrogen_salt": 1
+        },
+        "value": 0
+    },
+    "superconductor": {
+        "ingredients": {
+            "semiconductor": 1,
+            "enriched_carbon": 1
+        },
+        "value": 0
+    },
+    "quantum_processor": {
+        "ingredients": {
+            "circuit_board": 1,
+            "superconductor": 1
+        },
+        "value": 0
+    }
+}
