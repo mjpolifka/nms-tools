@@ -1,5 +1,8 @@
 # No Man's Sky Tools
 
+## This is basically abandoned
+I don't play the game anymore and don't intend to finish anything in here.
+
 ### Under Construction:
 #### Solar power calculator
 - Input daylight and night hours, including seconds of 50% power
@@ -26,7 +29,7 @@ I'm planning for this to be a Python/Flask backend for wide deployment options (
 But I want the frontend to be React, just so I can build my skills.
 Flask can probably handle the frontend easily, as it did with my Satisfactory Tools.  
 
-Basically write everything starting in Flask.
+Basically write everything starting in React.
 Only features requiring database access will have anything written in Python/Flask.
 When you need to look up some data, write an API call and a Flask function.  
 
@@ -40,4 +43,4 @@ Or even writing something myself, it would certainly be a good exercise.
 I still need a backend though, and I still want it to be Python/Flask.
 If it ends up being a 100%-React app, I'll still need something to serve it.  
 
-But definitely I need to start this in Flask and see where it goes from there, while I build up my data in a file
+But definitely I need to start this in React and see where it goes from there, while I build up my data in a file
